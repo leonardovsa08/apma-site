@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - APMA Assis</title>
+    <meta name="description"
+        content="Entre em contato com a APMA: telefone, e-mail, endereço em Assis/SP e formulário de mensagem.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="solido">
+        <div class="conteudo barra">
+            <a href="index.html" class="marca">
+                <h2 style="color: white; font-style: italic;"><span style="color: var(--primary-color);">APMA</span>
+                </h2>
+            </a>
+            <button class="botao-menu" aria-label="Abrir menu"><i class="fa-solid fa-bars"></i></button>
+            <nav class="menu">
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="parceiros.html">Parceiros</a>
+                <a href="contato.html" class="ativo">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="capa">
+        <div class="conteudo">
+            <span class="etiqueta">FALE CONOSCO</span>
+            <h1>Contato</h1>
+            <p>Dúvidas, parcerias, voluntariado ou inscrição em eventos — estamos prontos para ouvir você.</p>
+        </div>
+    </section>
+
+    <section class="secao clara">
+        <div class="conteudo">
+            <div class="contato-grade">
+                <div>
+                    <span class="subtitulo">APMA Assis</span>
+                    <h2 style="font-size: 2rem; margin-bottom: 15px;">Estamos aqui<br>para conversar</h2>
+                    <p style="color: var(--text-gray); line-height: 1.7;">Seja piloto, familiar, empresa ou alguém que
+                        quer ajudar — mande uma mensagem. Respondemos o mais rápido possível.</p>
+
+                    <div class="contato-lista">
+                        <div class="contato-item">
+                            <div class="icone"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Telefone / WhatsApp</h4>
+                                <p>(18) 99767-9127</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <div class="icone"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>rojasracing127@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <div class="icone"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Rua José Vieira da Cunha e Silva, 531<br>Assis - SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formulario">
+                    <h3>Envie uma Mensagem</h3>
+                    <form>
+                        <div class="linha-form">
+                            <div class="campo">
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                            </div>
+                            <div class="campo">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="(18) 99999-9999">
+                            </div>
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="campo">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione...</option>
+                                <option value="evento">Inscrição / Eventos</option>
+                                <option value="voluntario">Voluntariado</option>
+                                <option value="parceria">Parceria / Patrocínio</option>
+                                <option value="doacao">Doação</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" placeholder="Como podemos ajudar?"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="botao" style="width: 100%; justify-content: center;"><i
+                                class="fa-solid fa-paper-plane"></i> Enviar Mensagem</button>
+                        <p class="nota-form">Este formulário é informativo. Em um site publicado, a mensagem seria
+                            enviada por e-mail. Por enquanto, use também o telefone ou WhatsApp acima.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="conteudo rodape-grade">
+            <div class="rodape-coluna rodape-sobre">
+                <h3 style="color: var(--primary-color);">APMA</h3>
+                <p>Unimos paixão pelo motocross com o propósito de transformar vidas através do esporte e da
+                    solidariedade.</p>
+                <div class="redes">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="rodape-coluna rodape-links">
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="parceiros.html">Parceiros</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="rodape-coluna rodape-contato">
+                <h3>Contato</h3>
+                <p><i class="fa-solid fa-phone"></i> (18) 99767-9127</p>
+                <p><i class="fa-solid fa-envelope"></i> rojasracing127@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Rua José Vieira da Cunha e Silva, 531 - Assis/SP</p>
+            </div>
+            <div class="rodape-coluna">
+                <h3>Receba Novidades</h3>
+                <p>Assine nossa newsletter e fique por dentro dos próximos eventos!</p>
+                <form class="boletim" onsubmit="return false;">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" aria-label="Enviar"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="conteudo rodape-base">
+            <p>&copy; 2026 APMA - Associação de Pilotos de Motocross de Assis. Todos os direitos reservados.</p>
+            <p>Desenvolvido com <i class="fa-solid fa-heart" style="color: var(--primary-color);"></i> por voluntários
+                da APMA</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
